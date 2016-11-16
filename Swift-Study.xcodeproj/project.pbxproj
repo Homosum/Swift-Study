@@ -14,6 +14,8 @@
 		FB639D971DDC06F400DAE168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB639D951DDC06F400DAE168 /* LaunchScreen.storyboard */; };
 		FB639DA21DDC06F400DAE168 /* Swift_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB639DA11DDC06F400DAE168 /* Swift_StudyTests.swift */; };
 		FB639DAD1DDC06F400DAE168 /* Swift_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB639DAC1DDC06F400DAE168 /* Swift_StudyUITests.swift */; };
+		FB639DBB1DDC0A1800DAE168 /* FirstSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB639DBA1DDC0A1800DAE168 /* FirstSubViewController.swift */; };
+		FB639DBD1DDC0A2B00DAE168 /* SecondSubViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB639DBC1DDC0A2B00DAE168 /* SecondSubViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FB639DA81DDC06F400DAE168 /* Swift-StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-StudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB639DAC1DDC06F400DAE168 /* Swift_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_StudyUITests.swift; sourceTree = "<group>"; };
 		FB639DAE1DDC06F400DAE168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB639DBA1DDC0A1800DAE168 /* FirstSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSubViewController.swift; sourceTree = "<group>"; };
+		FB639DBC1DDC0A2B00DAE168 /* SecondSubViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSubViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				FB639D8C1DDC06F400DAE168 /* AppDelegate.swift */,
 				FB639D8E1DDC06F400DAE168 /* ViewController.swift */,
+				FB639DBA1DDC0A1800DAE168 /* FirstSubViewController.swift */,
+				FB639DBC1DDC0A2B00DAE168 /* SecondSubViewViewController.swift */,
 				FB639D901DDC06F400DAE168 /* Main.storyboard */,
 				FB639D931DDC06F400DAE168 /* Assets.xcassets */,
 				FB639D951DDC06F400DAE168 /* LaunchScreen.storyboard */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					FB639D881DDC06F400DAE168 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K6H2SW8RJG;
 						ProvisioningStyle = Automatic;
 					};
 					FB639D9C1DDC06F400DAE168 = {
@@ -259,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB639DBD1DDC0A2B00DAE168 /* SecondSubViewViewController.swift in Sources */,
 				FB639D8F1DDC06F400DAE168 /* ViewController.swift in Sources */,
 				FB639D8D1DDC06F400DAE168 /* AppDelegate.swift in Sources */,
+				FB639DBB1DDC0A1800DAE168 /* FirstSubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +421,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6H2SW8RJG;
 				INFOPLIST_FILE = "Swift-Study/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hnzt.Swift-Study";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnzt.Swift-Study.wtc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +434,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6H2SW8RJG;
 				INFOPLIST_FILE = "Swift-Study/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hnzt.Swift-Study";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnzt.Swift-Study.wtc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -505,6 +516,7 @@
 				FB639DB31DDC06F400DAE168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB639DB41DDC06F400DAE168 /* Build configuration list for PBXNativeTarget "Swift-StudyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				FB639DB61DDC06F400DAE168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB639DB71DDC06F400DAE168 /* Build configuration list for PBXNativeTarget "Swift-StudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				FB639DB91DDC06F400DAE168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
